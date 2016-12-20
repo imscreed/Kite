@@ -90,5 +90,10 @@ router.delete('/todo/:id', function(req, res){
     });
 });
 
+/* GET api listing. */
+router.get('/', (req, res) => {
+  res.send('api works');
+});
+
 
 module.exports = router;
